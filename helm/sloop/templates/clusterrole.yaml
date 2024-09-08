@@ -61,13 +61,6 @@ rules:
       - list
       - watch
   - apiGroups:
-      - policy
-    resources:
-      - poddisruptionbudgets
-    verbs:
-      - list
-      - watch
-  - apiGroups:
       - storage.k8s.io
     resources:
       - storageclasses
